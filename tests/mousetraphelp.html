@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="peanutbutter.css" rel="stylesheet">
+<body>
+    <h1>Peanut Butter with Jelly</h1>
+    <p>For testing mousetrap with the Help extension.</p>
+    <p>
+        Press
+        <code>?</code>
+        to <a id="help" href="#">show help</a> in a lightbox popup.
+    </p>
+    <p>Code:</p>
+    <pre>
+        Mousetrap.bind("p", function () { alert("Peanut butter is nice."); }, "alert peanut butter.");
+        Mousetrap.bind("! j", function () { alert("Even better with Jelly."); }, "alert jelly.");
+    </pre>
+
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="../mousetrap.js"></script>
+    <script src="../mousetrap.help.js"></script>
+    <script type="text/javascript">
+        Mousetrap.bind("p", function () { alert("Peanut butter is nice."); }, "alert peanut butter.");
+        Mousetrap.bind("! j", function () { alert("Even better with Jelly."); }, "alert jelly.");
+    </script>
+    <script>
+        $("#help").click(function () {
+            Mousetrap.help();
+        });
+    </script>
+</body>
