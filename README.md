@@ -42,6 +42,14 @@ Mousetrap Help is a mousetrap.js extension to display keyboard shortcuts in a si
     </script>
     ```
 
+## API
+
+`Mousetrap.help()` : Show the lightbox popup.
+
+`Mousetrap.unhelp()` : Hide the lightbox popup.
+
+`Mousetrap.togggleHelp()` : Show or hide the lightbox popup.
+
 ## What is Mousetrap?
 
 Visit http://craig.is/killing/mice for its awesomeness!
@@ -49,5 +57,7 @@ Visit http://craig.is/killing/mice for its awesomeness!
 ## Credit
 
 @ccampbell for the awesome mousetrap. 
+
 @sveder for the lightbox idea. All major work comes from him.
+
 @ecgan for making this into a mousetrap extension with some improvements and bugfixes. 
