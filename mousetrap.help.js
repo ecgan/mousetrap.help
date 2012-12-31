@@ -1,7 +1,4 @@
-/**
- * Copyright 2012 Gan Eng Chin
- * https://github.com/ecgan
- *
+/*
  * Mousetrap.help is an extension to show Mousetrap keyboard shortcuts in a Gmail style lightbox popup.
  */
 
