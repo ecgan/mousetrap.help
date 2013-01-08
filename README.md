@@ -1,3 +1,9 @@
+# Important Note
+
+I started this to help [Sveder](https://github.com/sveder) port his work to become a Mousetrap Help extension. Please visit [Sveder's Mousetrap Help repository](https://github.com/Sveder/mousetrap.help) for the official updated version.
+
+-----
+
 # Mousetrap Help
 
 Mousetrap Help is a mousetrap.js extension to display keyboard shortcuts in a simple lightbox popup.
@@ -8,7 +14,7 @@ Mousetrap Help is a mousetrap.js extension to display keyboard shortcuts in a si
 
     ```html
     <script src="/path/to/mousetrap.min.js"></script>
-	<script src="/path/to/mousetrap.help.min.js"></script>
+	<script src="/path/to/mousetrap.help.js"></script>
     ```
 
 2.  Add some keyboard events to listen for
@@ -56,8 +62,8 @@ Visit http://craig.is/killing/mice for its awesomeness!
 
 ## Credit
 
-@ccampbell for the awesome mousetrap. 
+[ccampbell](https://github.com/ccampbell) for the awesome mousetrap. 
 
-@sveder for the lightbox idea. All major work comes from him.
+[sveder](https://github.com/sveder) for the lightbox idea. All major work comes from him.
 
-@ecgan for making this into a mousetrap extension with some improvements and bugfixes. 
+[ecgan](https://github.com/ecgan) for making this into a mousetrap extension with some improvements and bugfixes. 
